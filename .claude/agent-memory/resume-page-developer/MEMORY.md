@@ -1,0 +1,2 @@
+- [project_design_decisions.md](project_design_decisions.md) — Color palette, fonts, layout approach, and CSS architecture for the dark-themed resume site
+- [user_ehsan.md](user_ehsan.md) — Robotics & Software Engineer based in Luxembourg, building a personal resume site on GitHub Pages
