@@ -21,6 +21,13 @@ export type Volunteering = {
   bullets: string[]
 }
 
+export type Publication = {
+  citation: string
+  venue: string
+  year: string
+  link?: string
+}
+
 export const profile = {
   name: "Ehsan Ranjbari",
   title: "Robotics and Software Engineer",
@@ -158,6 +165,7 @@ export const skills: { category: string; items: string[] }[] = [
     items: [
       "MATLAB",
       "Siemens SIMATIC Step 7",
+      "KUKA Robot Programming",
       "AutoCAD Plant",
       "BIZAGI Studio",
     ],
@@ -184,12 +192,13 @@ export const skills: { category: string; items: string[] }[] = [
   },
 ]
 
-export const publications = [
+export const publications: Publication[] = [
   {
     citation:
       "Elobaid, M., Dafarra, S., Ranjbari, E., Romualdi, G., Chaki, T., Kawakami, T., Yoshiike, T., Pucci, D. (2024). Robot morphology-agnostic remote telepresence over large distances: case studies. IEEE International Conference on Telepresence, June 5th, 2024.",
     venue: "IEEE International Conference on Telepresence",
     year: "2024",
+    link: "https://ieeexplore.ieee.org/document/10841750",
   },
 ]
 

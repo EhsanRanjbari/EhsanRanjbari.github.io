@@ -28,6 +28,16 @@ export function Publications() {
                 <p className="mt-2 text-sm md:text-base text-neutral-200 leading-relaxed">
                   {pub.citation}
                 </p>
+                {pub.link && (
+                  <a
+                    href={pub.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex text-sm text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    View Publication →
+                  </a>
+                )}
               </div>
             </div>
           </Card>
