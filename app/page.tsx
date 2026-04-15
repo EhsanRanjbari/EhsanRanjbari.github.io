@@ -3,7 +3,6 @@ import { Experience } from "@/components/sections/experience"
 import { Education } from "@/components/sections/education"
 import { Skills } from "@/components/sections/skills"
 import { Publications } from "@/components/sections/publications"
-import { Volunteering } from "@/components/sections/volunteering"
 import { Projects } from "@/components/sections/projects"
 import { Languages } from "@/components/sections/languages"
 import { profile } from "@/lib/cv"
@@ -20,8 +19,6 @@ export default function Home() {
       <div className="mx-auto h-px w-full max-w-5xl bg-neutral-900" />
       <Publications />
       <div className="mx-auto h-px w-full max-w-5xl bg-neutral-900" />
-      <Volunteering />
-      <div className="mx-auto h-px w-full max-w-5xl bg-neutral-900" />
       <Projects />
       <div className="mx-auto h-px w-full max-w-5xl bg-neutral-900" />
       <Languages />
@@ -30,9 +27,6 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 md:px-8 py-10 text-sm text-neutral-500 flex flex-col md:flex-row gap-3 md:items-center md:justify-between">
           <p>
             © {new Date().getFullYear()} {profile.name}
-          </p>
-          <p>
-            Built with Next.js, Tailwind, shadcn/ui, and a Spline 3D scene.
           </p>
         </div>
       </footer>

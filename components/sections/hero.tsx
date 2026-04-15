@@ -19,10 +19,7 @@ export function Hero() {
         <div className="flex flex-col md:flex-row h-full">
           {/* Left: identity */}
           <div className="flex-1 p-8 md:p-12 relative z-10 flex flex-col justify-center">
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">
-              Curriculum Vitae
-            </p>
-            <h1 className="mt-3 text-4xl md:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
               {profile.name}
             </h1>
             <p className="mt-3 text-lg md:text-xl font-medium text-neutral-200">
