@@ -23,7 +23,7 @@ export type Volunteering = {
 
 export const profile = {
   name: "Ehsan Ranjbari",
-  title: "Robotics & Software Engineer",
+  title: "Robotics and Software Engineer",
   tagline:
     "Building digital twins, navigation stacks, and humanoid teleoperation systems — bridging the gap between simulation and the real world.",
   location: "Luxembourg",
@@ -46,7 +46,7 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Robotics Engineer",
+    role: "Robotics and Software Engineer",
     company: "SolarCleano",
     location: "Luxembourg",
     period: "Sep 2024 – Oct 2025",
@@ -59,7 +59,7 @@ export const experience: Experience[] = [
     ],
   },
   {
-    role: "Robotics Software Engineer",
+    role: "Robotics and Software Engineer",
     company: "Istituto Italiano di Tecnologia",
     location: "Genoa, Italy",
     period: "Mar 2022 – Sep 2024",

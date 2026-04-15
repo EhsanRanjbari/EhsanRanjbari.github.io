@@ -13,8 +13,8 @@ Ehsan Ranjbari is a Robotics and Software Engineer based in Luxembourg. He holds
 **Current role**: Robotics and Software Engineer at r3Robotics, Luxembourg (November 2025 - Present). Working on EVBDL (Electrovehicle Battery Disassembly Line) using KUKA robots, ROS2, digital twin, and motion planning. Website: r3robotics.ai
 
 **Prior roles**:
-- Robotics Engineer, SolarCleano, Luxembourg (September 2024 - October 2025) — B1A autonomous solar panel cleaning robot, SLAM, navigation, React/Express UI.
-- Robotics Software Engineer, IIT (Istituto Italiano di Tecnologia), Genoa, Italy (March 2022 - August 2024) — ergoCub humanoid avatar, haptic glove C++ drivers, WorkFar teleoperation integration.
+- Robotics and Software Engineer, SolarCleano, Luxembourg (September 2024 - October 2025) — B1A autonomous solar panel cleaning robot, SLAM, navigation, React/Express UI.
+- Robotics and Software Engineer, IIT (Istituto Italiano di Tecnologia), Genoa, Italy (March 2022 - August 2024) — ergoCub humanoid avatar, haptic glove C++ drivers, WorkFar teleoperation integration.
 - Teaching Assistant, University of Tabriz (December 2017 - July 2019) — Fundamentals of Robotics.
 - Early-career roles in procurement and petrochemical internship (2017-2019), now condensed on CV.
 
