@@ -46,6 +46,17 @@ export function Education() {
                 </li>
               ))}
             </ul>
+
+            {edu.thesisLink && (
+              <a
+                href={edu.thesisLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex text-sm text-blue-400 hover:text-blue-300 transition-colors"
+              >
+                Watch Thesis Presentation →
+              </a>
+            )}
           </Card>
         ))}
       </div>

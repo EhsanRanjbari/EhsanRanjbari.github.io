@@ -12,6 +12,7 @@ export type Education = {
   institution: string
   period: string
   bullets: string[]
+  thesisLink?: string
 }
 
 export type Volunteering = {
@@ -133,6 +134,7 @@ export const education: Education[] = [
       "Devised a novel technique utilizing distance information to derive finger joint values.",
       "Evaluated the developed method through experimentation with the WEART Gloves wearable haptics glove.",
     ],
+    thesisLink: "https://drive.google.com/file/d/187i6Z4cyg3yauTe8SMbVFQE2GKWnFtyX/view",
   },
   {
     degree: "Bachelor's Degree in Electrical – Control Engineering",
